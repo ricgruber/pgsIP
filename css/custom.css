@@ -1,0 +1,36 @@
+/* Header buttons */
+#header nav ul.nav-top li.facebook a, #header nav ul.nav-top li.twitter a, #header nav ul.nav-top li.linkedin a {
+	border-radius: 2px;
+	margin-top: 8px;
+}
+
+#header nav ul.nav-top li.facebook a:hover, #header nav ul.nav-top li.twitter a:hover, #header nav ul.nav-top li.linkedin a:hover {
+	color: #ffffff;
+}
+
+/* Facebook */
+#header nav ul.nav-top li.facebook a {
+	padding: 0px 9px;
+}
+
+#header nav ul.nav-top li.facebook a:hover {
+	background-color: #3B5998;
+}
+
+/* Twitter */
+#header nav ul.nav-top li.twitter a {
+	padding: 0px 6px;
+}
+
+#header nav ul.nav-top li.twitter a:hover {
+	background-color: #00aced;
+}
+
+/* LinkedIn */
+#header nav ul.nav-top li.linkedin a {
+	padding: 0px 6px;
+}
+
+#header nav ul.nav-top li.linkedin a:hover {
+	background-color: #007bb6;
+}

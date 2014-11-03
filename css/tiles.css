@@ -1,0 +1,122 @@
+.i-home-featured-carousel {
+  background-color: #000000;
+  margin-bottom: 2px;
+}
+.i-home-tile {
+  color: #ffffff;
+  display: block;
+  position: relative;
+  margin-bottom: 2px;
+  overflow: hidden;
+  height: 120px;
+}
+.i-home-tile:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.i-home-tile:active {
+  color: #eb1478;
+}
+.i-home-tile .i-overlay {
+  display: none;
+}
+.i-home-tile .i-background {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -384px;
+  width: 767px;
+  height: 120px;
+}
+.i-home-tile .i-name {
+  font-family: "Antenna Cond Black", "Helvetica", "sans-serif";
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.i-home-tile-column {
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .i-home-tile-column:first-child {
+    padding-left: 10px;
+    padding-right: 2px;
+  }
+  .i-home-tile-column:last-child {
+    padding-left: 2px;
+    padding-right: 10px;
+  }
+  .i-home-tile {
+    margin-bottom: 4px;
+  }
+  .i-home-tile.i-big {
+    height: 372px;
+  }
+  .i-home-tile.i-big .i-background {
+    margin-left: -244px;
+    width: 487px;
+    height: 372px;
+  }
+  .i-home-tile.i-small {
+    height: 184px;
+  }
+  .i-home-tile.i-small .i-background {
+    margin-left: -244px;
+    width: 487px;
+    height: 184px;
+  }
+}
+@media (min-width: 1002px) {
+  .i-home-tile-column:first-child {
+    padding-left: 15px;
+  }
+  .i-home-tile-column:last-child {
+    padding-right: 15px;
+  }
+  .i-home-tile:hover .i-name {
+    visibility: hidden;
+  }
+  .i-home-tile:hover.i-big .i-overlay {
+    line-height: 372px;
+  }
+  .i-home-tile:hover.i-small .i-overlay {
+    line-height: 184px;
+  }
+  .i-home-tile:hover .i-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.65);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+  }
+  .i-home-tile:hover .i-overlay .i-vertical-centered {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .i-home-tile:hover .i-overlay .i-vertical-centered em {
+    display: block;
+    font-family: "Antenna Cond Black", "Helvetica", "sans-serif";
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .i-home-tile:hover .i-overlay .i-vertical-centered span {
+    display: block;
+    font-family: "Benton Sans", "Helvetica", "sans-serif";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    letter-spacing: 0;
+  }
+}
