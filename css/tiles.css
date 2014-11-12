@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Lato;
+    src: url(font/Lato.tff);
+  }
+
 .i-home-featured-carousel {
   background-color: #000000;
   margin-bottom: 2px;
@@ -29,7 +34,7 @@
   height: 120px;
 }
 .i-home-tile .i-name {
-  font-family: "Antenna Cond Black", "Helvetica", "sans-serif";
+  font-family: "Lato", "Helvetica", "sans-serif";
   font-size: 30px;
   line-height: 38px;
   letter-spacing: 1px;
@@ -103,7 +108,7 @@
   }
   .i-home-tile:hover .i-overlay .i-vertical-centered em {
     display: block;
-    font-family: "Antenna Cond Black", "Helvetica", "sans-serif";
+    font-family: "Lato", "Helvetica", "sans-serif";
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 1px;
@@ -113,7 +118,7 @@
   }
   .i-home-tile:hover .i-overlay .i-vertical-centered span {
     display: block;
-    font-family: "Benton Sans", "Helvetica", "sans-serif";
+    font-family: "Lato", "Helvetica", "sans-serif";
     font-size: 16px;
     font-weight: normal;
     line-height: 26px;
