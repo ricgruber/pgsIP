@@ -4,14 +4,12 @@ Written by: 	Okler Themes - (http://www.okler.net)
 Version: 		3.1.1
 */
 
-@font-face {
+ @font-face {
     font-family: Lato;
-    src: url(font/Lato.tff);
-
- }
+    src: url(fonts/Lato.ttf);
+  }
 
 html {
-	
 	overflow-y: auto;
 }
 
@@ -29,7 +27,6 @@ body {
 .body{
 	overflow-x:hidden;
 }
-
 
 
 .container-1000 {

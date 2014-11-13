@@ -3,6 +3,12 @@ Name: 			theme-responsive.css
 Written by: 	Okler Themes - (http://www.okler.net)
 Version: 		3.1.1
 */
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato.ttf);
+ }
+
 @media (max-width: 991px) {
   /* Header */
 	#header {
