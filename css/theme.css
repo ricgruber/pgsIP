@@ -32,6 +32,7 @@ body {
 .container-1000 {
 	width: 980px;
 	margin: 0 auto;
+	padding-top: 25px;
 }
 
 @media(max-width:1000px){
