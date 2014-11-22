@@ -1647,7 +1647,7 @@ body.boxed .pricing-table .plan, body.boxed .pricing-table h3 {
 
 .thumb-info-social-icons a {
 	background: #CCC;
-	border-radius: 0px;
+	border-radius: 4px;
 	display: inline-block;
 	height: 30px;
 	line-height: 30px;
