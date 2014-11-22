@@ -174,35 +174,3 @@ section.call-to-action2 h3 .btn {
   border-radius: 4px;
 }
 
-/* Thumb Info Social Icons */
-.thumb-info-social-icons-fb {
-  border-top: 1px dotted #DDD;
-  margin: 0;
-  padding: 15px 0;
-  display: block;
-}
-
-.thumb-info-social-icons-fb a {
-  background: #CCC;
-  border-radius: 4px;
-  display: inline-block;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  width: 30px;
-}
-
-.thumb-info-social-icons-fb a:hover {
-  text-decoration: none;
-}
-
-.thumb-info-social-icons-fb a span {
-  display: none;
-}
-
-.thumb-info-social-icons-fb a i {
-  color: #FFF;
-  font-size: 0.9em;
-  font-weight: normal;
-}
-
