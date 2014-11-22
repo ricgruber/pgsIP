@@ -146,7 +146,7 @@ section.call-to-action2 {
 section.call-to-action2:before {
   content: "";
   display: block;
-  position: absolute;
+  position;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-top: 15px solid #FFF;
