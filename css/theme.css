@@ -1002,8 +1002,8 @@ body #header nav.mega-menu .mega-menu-signin ul.dropdown-menu li a, body #header
 
 /* Section Featured */
 section.featured {
-	background: #F0F0ED;
-	border-top: 5px solid #ECECE8;
+	background: #E0E0E0;
+	border-top: 1px solid #ECECE8;
 	margin: 35px 0;
 	padding: 50px 0;
 }
