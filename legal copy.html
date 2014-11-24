@@ -254,7 +254,10 @@
 							<a href="#tab_default_4" data-toggle="tab">
 							Cookie Policy </a>
 						</li>
-						
+						<!--<li>
+							<a href="#tab_default_5" data-toggle="tab">
+							Litigation </a>
+						</li>-->
 					</ul>
 					<div class="tab-content">
 						<div class="tab-pane active" id="tab_default_1">
@@ -416,7 +419,19 @@ Chicago, IL 60654</br>
 
 <p><strong>Siteimprove cookies:</strong> We may use these cookies to collect statistics about site usage. This might include information about when someone last visited our site.</p>
 						</div>
-							
+							<!--<div class="tab-pane" id="tab_default_5">
+							<p>
+								Howdy, I'm in Tab 5.
+							</p>
+							<p>
+								Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
+							</p>
+							<p>
+								<a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
+									Learn more...
+								</a>
+							</p>
+						</div>-->
 					</div>
 				</div>
 			</div>
@@ -425,9 +440,9 @@ Chicago, IL 60654</br>
    </div>
 </div>
 
-<!-- Footer Begin-->
+	<!-- Footer Begin-->
 			<footer id="footer">
-				<div class="container-1000">
+				<div class="container">
 					<div class="row">
 						
 						<div class="col-md-3">
@@ -441,7 +456,7 @@ Chicago, IL 60654</br>
 								</div>
 					
 								<div class="col-md-4">
-							<a href="locations.html"><h4>LOCATIONS</h4></a>
+							<h4>LOCATIONS</h4>
 									
 								</div>
 								<div class="col-md-2">
@@ -452,22 +467,22 @@ Chicago, IL 60654</br>
 
 						<div class="row">
 							<div class="col-md-3">
-									<a href="experience.html"><h4>EXPERIENCE</h4></a>
+									<h4>EXPERIENCE</h4>
 									<ul class="list icons list-unstyled">
 										<li><i class="icon icon-caret-right"></i> <a href="practiceareas/corporate.html">Corporate</a></li>
-										<li><i class="icon icon-caret-right"></i> <a href="practiceareas/patents.html">Patents</a></li>
-										<li><i class="icon icon-caret-right"></i> <a href="practiceareas/intellectual-property.html">Intellectual Property</a></li>
 										<li><i class="icon icon-caret-right"></i> <a href="practiceareas/privacy-data-security.html">Data Security</a></li>
+										<li><i class="icon icon-caret-right"></i> <a href="practiceareas/digital.html">Digital</a></li>
+										<li><i class="icon icon-caret-right"></i> <a href="practiceareas/intellectual-property.html">Intellectual Property</a></li>
 										<li><i class="icon icon-caret-right"></i> <a href="practiceareas/litigation.html">Litigation</a></li>
 									</ul>
 								</div>
 
 					<div class="col-md-3">
-						<a href="http://paskygruberscatchell.com/connect"><h4>CONNECT</h4></a>
+						<h4>NEWS</h4>
 									<ul class="list icons list-unstyled">
-										<li><i class="icon icon-caret-right"></i> <a href="http://paskygruberscatchell.com/connect/news">News</a></li>
-										<li><i class="icon icon-caret-right"></i> <a href="http://paskygruberscatchell.com/connect/insights">Insights</a></li>
-										<li><i class="icon icon-caret-right"></i> <a href="http://paskygruberscatchell.com/connect/events">Events</a></li>
+										<li><i class="icon icon-caret-right"></i> <a href="#">News</a></li>
+										<li><i class="icon icon-caret-right"></i> <a href="#">Insights</a></li>
+										<li><i class="icon icon-caret-right"></i> <a href="#">Events</a></li>
 									</ul>
 								</div>
 
@@ -477,7 +492,7 @@ Chicago, IL 60654</br>
 				<div class="newsletter">
 						<div class="col-md-4">
 							<h4>NEWSLETTER</h4>
-								<p><span style="color:#ffffff">Enter your e-mail and subscribe today.</span></p>
+								<p>Enter your e-mail and subscribe today.</p>
 			
 								<div class="alert alert-success hidden" id="newsletterSuccess">
 									<strong>Success!</strong> You've been added to our email list.
@@ -505,7 +520,7 @@ Chicago, IL 60654</br>
 	<!-- Footer End-->		
 		<!--Sub Footer Begin-->		
 				<div class="footer-copyright">
-					<div class="container-1000">
+					<div class="container">
 						<div class="row">
 							<div class="col-md-1">
 								<a href="index.html" class="logo">
@@ -513,13 +528,13 @@ Chicago, IL 60654</br>
 								</a>
 							</div>
 							<div class="col-md-5">
-								<p><span style="color:#ffffff">© 2009-2014. Pasky Gruber Scatchell LLC. All Rights Reserved.</span></p>
+								<p>© 2009-2014. Pasky Gruber Scatchell LLC. All Rights Reserved.</p>
 							</div>
 							<div class="col-md-6">
 								<nav id="sub-menu">
 									<ul>
 										<li><a href="legal.html">Legal</a></li>
-										<li><a href="legal.html">Attorney Advertising</a></li>
+										<li><a href="legal.html#advertisingdisclaimer">Attorney Advertising</a></li>
 										<li><a href="careers.html">Careers</a></li>
 										<li><a href="https://app.goclio.com/session/new">Client Login</a></li>
 										
@@ -559,7 +574,21 @@ Chicago, IL 60654</br>
 		<!-- Custom JS -->
 		<script src="js/custom.js"></script>
 
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script type="text/javascript">
 		
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-12345678-1']);
+			_gaq.push(['_trackPageview']);
+		
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		
+		</script>
+		 -->
 
 	</body>
 </html>
