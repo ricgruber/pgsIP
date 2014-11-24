@@ -37,7 +37,7 @@
   font-family: "Lato", "Helvetica", "sans-serif";
   font-size: 30px;
   line-height: 38px;
-  letter-spacing: 1px;
+  letter-spacing: -0.2px;
   text-transform: uppercase;
   position: absolute;
   top: 10px;
@@ -111,7 +111,7 @@
     font-family: "Lato", "Helvetica", "sans-serif";
     font-size: 40px;
     line-height: 48px;
-    letter-spacing: 1px;
+    letter-spacing: -0.2px;
     font-style: normal;
     text-transform: uppercase;
     margin-bottom: 10px;
