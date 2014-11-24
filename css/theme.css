@@ -1064,7 +1064,7 @@ section.call-to-action:before {
 	position: absolute;
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
-	border-top: 15px solid #FFF;
+	border-top: 0px solid #FFF;
 	height: 15px;
 	width: 15px;
 	top: -5px;
