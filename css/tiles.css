@@ -77,7 +77,7 @@
 }
 @media (min-width: 1002px) {
   .i-home-tile-column:first-child {
-    padding-left: 15px;
+    padding-left: 3px;
   }
   .i-home-tile-column:last-child {
     padding-right: 15px;
