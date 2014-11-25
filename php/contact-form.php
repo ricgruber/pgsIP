@@ -11,7 +11,7 @@ header('Expires: ' . gmdate('r', 0));
 header('Content-type: application/json');
 
 // Enter your email address below.
-$to = 'you@domain.com';
+$to = 'info@paskygruberscatchell.com';
 
 $subject = $_POST['subject'];
 
