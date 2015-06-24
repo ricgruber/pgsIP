@@ -1,4 +1,4 @@
-288/*
+/*
 Name: 			theme.css
 Written by: 	Okler Themes - (http://www.okler.net)
 Version: 		3.1.1
@@ -37,7 +37,7 @@ body {
 
 @media(max-width:1000px){
 	.container-1000 {
-		margin: 5px 50px auto;
+		margin: 5px 20px auto;
 		width: auto;
 	}
 }
@@ -55,7 +55,7 @@ body {
 
 #header > .container {
 	height: 100px;
-	margin-bottom: -34px;
+	margin-bottom: -25px;
 	position: relative;
 	display: table;
 	max-width: 1014px;
@@ -174,7 +174,7 @@ body {
 	margin-right: 3px;
 	text-transform: regular;
 	font-weight: 700;
-	padding: 10px 13px;
+	padding: 1px 13px;
 }
 
 #header nav ul.nav-main li a:hover {
@@ -343,8 +343,12 @@ body {
 }
 
 #header .logo img {
-	position: relative;
+	
 	color: transparent;
+	padding-top: 30px;
+	padding-bottom: 13px;
+	  margin-top: 35px;
+	    margin-bottom: -5px;
 }
 
 /* Header Container */
@@ -1442,7 +1446,7 @@ aside ul.nav-list > li > a {
 	border-top: 4px solid #1F1F1F;
 	font-size: 0.9em;
 	margin-top: 50px;
-	padding: 20px 0 0;
+	padding: 10px 0 0;
 	position: relative;
 	clear: both;
 }
@@ -1606,6 +1610,7 @@ aside ul.nav-list > li > a {
 
 #footer .logo {
 	display: block;
+	width: 150%;
 }
 
 #footer .logo.push-bottom {
@@ -1616,7 +1621,7 @@ aside ul.nav-list > li > a {
 	background: #0C0C0C; 
 	border-top: 4px solid #111;
 	margin-top: 0px;
-	padding: 20px 0 10px;
+	padding: 0px 0 10px;
 }
 
 #footer .footer-copyright nav {
@@ -2174,6 +2179,7 @@ body.boxed .body {
 body.boxed #header {
 	padding: 15px 0;
 }
+
 
 /* New Style for Services //
 
