@@ -78,7 +78,7 @@
 				<div class="container">
 					<h1 class="logo">
 						<a href="index.html">
-						<img alt="Pasky Gruber LLC" width="222" height="90" data-sticky-width="165" data-sticky-height="70" top="16" src="img/PGIP_logo.png">
+						<img alt="Pasky Gruber LLC" width="267" height="90" data-sticky-width="165" data-sticky-height="70" top="16" src="img/PGIP_logo.png">
 
 						</a>
 					</h1>
@@ -433,8 +433,33 @@
 
 
 
-
-				<div class="newsletter">
+<div class="newsletter">
+						<div class="col-md-4">
+							<h4>NEWSLETTER</h4>
+								<p>Enter your e-mail and subscribe today.</p>
+			
+								<div class="alert alert-success hidden" id="newsletterSuccess">
+									<strong>Success!</strong> You've been added to our email list.
+								</div>
+			
+								<div class="alert alert-danger hidden" id="newsletterError"></div>
+			
+								<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+									<div class="input-group">
+										<input class="form-control" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
+										<span class="input-group-btn">
+											<button class="btn btn-default" type="submit">Go!</button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-2">
+						<a href="http://openlegal.co"><img src="../img/openlegal-logo.png"></a>
+								</div>
+					</div>	
+				</div>
+				<!-- <div class="newsletter">
 						<div class="col-md-4">
 							<h4>NEWSLETTER</h4>
 								<p><span style="color:#ffffff">Join an elite group.</span></p>
@@ -459,7 +484,7 @@
 						<a href="http://openlegal.co"><img src="img/openlegal-logo.png"></a>
 								</div>
 					</div>	
-				</div>
+				</div> -->
 
 
 	<!-- Footer End-->		

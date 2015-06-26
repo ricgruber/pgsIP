@@ -347,8 +347,21 @@ body {
 	color: transparent;
 	padding-top: 30px;
 	padding-bottom: 13px;
-	  margin-top: 35px;
-	    margin-bottom: -5px;
+	margin-top: 35px;
+	margin-bottom: -5px;
+	margin-left: -80px;
+}
+
+@media (max-width: 400px) {
+	#header .logo img{
+		color: transparent;
+		padding-top: 30px;
+		padding-bottom: 13px;
+		margin-top: 35px;
+		margin-bottom: -5px;
+		margin-left: -10px;
+
+	}
 }
 
 /* Header Container */
