@@ -236,6 +236,7 @@ Version: 		3.1.1
 		position: absolute;
 		right: 20px;
 		color: #FFF;
+		margin-top: 19px;
 	}
 
 	.btn-responsive-nav:hover, .btn-responsive-nav:active, .btn-responsive-nav:focus {
@@ -254,6 +255,8 @@ Version: 		3.1.1
 	#header h1.logo img {
 		max-width: 100%;
 	}
+
+
 
 	#header.center h1.logo {
 		text-align: left;
@@ -506,7 +509,10 @@ Version: 		3.1.1
   /* Responsive Button Nav */
 	.btn-responsive-nav {
 		top: 55px;
+		margin-top: 19px;
 	}
+
+
 
   /* Sort */
 	.sort-source-wrapper {
@@ -562,6 +568,13 @@ Version: 		3.1.1
 		background: none !important;
 	}
 }
+
+	@media (min-width: 400px;){
+		.btn-responsive-nav {
+		top: 55px;
+		margin-top: -18px;
+	}
+	}
 
 @media (max-width: 479px) {
   /* Base */

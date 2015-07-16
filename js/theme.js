@@ -262,6 +262,11 @@ Version: 		3.1.1
 
 			}
 
+			
+
+
+
+
 			$this.stickyMenuDeactivate = function() {
 
 				if($body.hasClass("sticky-menu-active")) {

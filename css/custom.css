@@ -177,8 +177,33 @@ section.call-to-action2 h3 .btn {
 
 
 #openlegalmargin{
-  margin-top: -11px;
+  margin-top: -9px;
 }
+
+#openlegallogoheader{
+  width: 86%;
+}
+
+@media (max-width: 990px){
+  #openlegallogoheader{
+    width: 135px;
+    margin-left: -5px;
+    margin-top: -9px;
+  }
+}
+
+
+
+
+#openlegallogofooter{
+  width: 162px;
+  margin-left: -5px;
+  margin-top: -12px;
+}
+
+
+
+  
 
 .pg {
 color: #ffffff;
